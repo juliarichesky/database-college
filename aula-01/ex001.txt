@@ -1,0 +1,10 @@
+ESTUDO DE CASO
+a empresa “Table Taste” foi criada pelo conglomerado DimDim com foco em atender proprietários de: bares, restaurantes, pizzarias e outros estabelecimentos que atendam clientes.
+o objetivo é garantir que qualquer produto ou serviço consumido pelo cliente dentro do estabelecimento seja registrado a uma comanda (com mesa ou não) e no momento do fechamento do pedido solicitado pelo cliente, os itens consumidos sejam apresentados para pagamento e encerramento do atendimento.
+
+nesse início de projeto vamos analisar o arquivo vendebem.jpg identificando potenciais informações que podem ser armazenadas.
+
+a empresa “Table Taste” quer lançar uma aplicação mobile e web que permita armazenar os pedidos feitos pelos clientes de milhares de estabelecimentos comerciais..
+a ideia é que cada estabelecimento comercial tenha a sua versão do projeto “Table Taste” e consiga gravar os pedidos feitos nas mesas pelos clientes e depois imprimir o comprovante do que foi consumido.
+
+para isso ela contratou você, para coletar as informações necessárias do negócio e transformá-las em estruturas físicas de armazenamento, utilizando para isso um poderoso gerenciador de banco de dados (SGBD).

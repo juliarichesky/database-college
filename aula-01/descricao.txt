@@ -1,0 +1,57 @@
+TIPOS DE ATRIBUTOS
+
+• Simples: Cada atributo possui um único valor atômico e indivisível. Por exemplo: Nome, Cidade, Gênero, CEP.
+• Composto: O atributo pode ser composto de vários atributos. Por exemplo, Endereço(Rua, Número, Complemento, Cidade, Estado, CEP, País) ou Telefone, (DDI,DDD e Número).
+• Multivalorado: Pode conter mais de um valor para o mesmo registro(informação). Por exemplo: Telefone (Tel. Residencial, Tel. Comercial, Tel. Celular).
+• Determinante (ou chave): Define de forma única as instâncias de uma entidade. Não podem haver duas instâncias com o mesmo valor nesse atributo. Por exemplo: Matrícula, CPF, CNPJ, RA, etc.
+• Derivado: Uma entidade pode conter atributos cujo valor esteja associado ao valor de um outro atributo. Por exemplo: Idade que é calculado a partir da Data de Nascimento da pessoa.
+
+
+CHAVES
+
+• Uma chave consiste em uma ou mais colunas de uma relação cujos valores são usados para identificar de forma exclusiva uma linha ou conjunto de linha.
+• Pode ser única (identifica uma única linha) ou não-única (identifica um conjunto de linhas).
+	• Únicas
+		- Primária;
+		- Composta;
+		- Subrogada ou Substituta.
+	• Não Únicas
+		- Estrangeira
+
+
+CHAVE PRIMÁRIA
+
+Uma chave identifica uma instância específica na entidade. Por Exemplo: CPF, RG, Código de Produto, CNH, Carteira Profissional, Conta Bancária e etc.
+• Todos esses atributos mencionados, tem o princípio de identificar de maneira única (ou exclusiva) uma instância (ou linha) dentro de uma entidade (ou tabela).
+• A chave também tem o princípio de não se repetir dentro das instâncias.
+• No Banco de Dados chamamos esse atributo de Chave Primária (ou Primary Key [PK]) e toda Tabela necessita da mesma.
+• Um atributo determinante é candidato a chave primária, mas deve-se analisá-lo de forma que dentro do referido contexto de negócio, este atributo efetivamente caracterize a ocorrência de forma única. Uma vez que esses identificadores pertence a outro contexto de negócio. Toda Chave Determinante é conhecida como Chave Candidata.
+
+
+CHAVE ESTRANGEIRA
+
+• É uma forma explicita de conexão entre duas entidades, estabelecendo o relacionamento ou vínculo entre elas.
+• No Banco de Dados chamamos esse atributo de Chave Estrangeira (ou Foreign Key [FK]) e toda Tabela Fraca necessita desse atributo de conexão.
+• A chave estrangeira de uma entidade, faz referência a chave primária da entidade a qual está se relacionando, gerando a integridade referencial.
+
+
+CHAVE COMPOSTA
+
+• Formada por um ou mais atributos, que facilitam o acesso aos dados.
+• São considerados índices que formam meios de classificação e pesquisa para as ocorrências.
+• Usa-se sempre que ocorrer a necessidade de buscar informações semelhantes em ordem crescente/decrescente em funções de datas, valores ou status.
+• No Banco de Dados chamamos esse atributo de Chave Composta ou Secundária, a mesma não precisa ser implementada, uma vez que utiliza-se os atributos existentes.
+
+
+CHAVE SUB-ROGADA
+
+• Caso não exista um atributo que possa assumir a chave primária, se faz necessário criar uma chave sub-rogada.
+• Geralmente esse tipo de chave é criada no SGBD para que o próprio sistema crie um valor que será auto incrementado a cada registro da tabela.
+• Não possui significado para os usuários e geralmente fica escondida nas aplicações.
+• As chaves sub-rogada são frequentemente usadas no lugar de uma chave determinante.
+
+
+INSTÂNCIA DE UMA ENTIDADE
+
+• São valores, isto é, os dados em si, sendo específicos da entidade.
+• Uma ocorrência também é conhecida como: INSTÂNCIA, TUPLA, REGISTRO ou LINHA.
