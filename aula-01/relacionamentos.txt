@@ -1,0 +1,17 @@
+relacionamento é a representação de uma ação ou fato que associa os itens de uma entidade com os itens de outra entidade.
+representado por uma linha continua ou não
+possui os dois sentidos, ida e volta.
+cada sentido possui um nome próprio
+
+relacionamento 1:1
+
+FUNCIONARIO........................LOGIN
+um funcionario necessita de login
+e pra cada login um funcionario
+
+
+relacionamento 1:N
+
+FUNCIONARIO........................DEPENDENTE
+um funcionario pode possuir vários dependentes
+um funcionario pode ter nenhum, um ou mais dependentes
