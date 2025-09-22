@@ -55,3 +55,63 @@ INSTÂNCIA DE UMA ENTIDADE
 
 • São valores, isto é, os dados em si, sendo específicos da entidade.
 • Uma ocorrência também é conhecida como: INSTÂNCIA, TUPLA, REGISTRO ou LINHA.
+
+
+
+CARDINALIDADE
+
+• Cardinalidade de um atributo define quantos valores deste atributo podem estar associados a uma
+ocorrência da entidade/relacionamento a qual ele pertence.
+• A Cardinalidade do atributo é definida como:
+• Atributo Mandatório: deve ter o seu valor preenchido a cada ocorrência da entidade. Na
+modelagem é acompanhado por *.
+• Atributo Opcional: pode ficar sem um valor preenchido em cada ocorrência da entidade. Na
+modelagem é acompanhado por ○.
+
+
+• Cardinalidade de um atributo define quantos valores deste atributo podem estar associados a uma ocorrência
+da entidade/relacionamento a qual ele pertence.
+• A Cardinalidade do atributo é definida como:
+
+MINIMAS (0 OU 1):
+• Atributo Mandatório (ou 1): deve ter o seu valor
+preenchido a cada ocorrência da entidade. Na
+modelagem é acompanhado por *.
+
+• Atributo Opcional (ou 0): pode ficar sem um
+valor preenchido em cada ocorrência da
+entidade. Na modelagem é acompanhado por ○
+
+
+MÁXIMAS (1 ou N):
+• Atributo Monovalorado (ou 1): que só pode ter
+um único valor, isto é, os valores não podem se
+repetir dentro da entidade. (U)
+
+• Atributo Multivalorado (ou N): que pode ter
+mais de um valor para uma mesma entidade, isto
+é, os valores se repetem dentro da entidade
+
+
+
+bota direito no quadro branco => notation => information engeenering notation
+
+• ENG. INFORMAÇÃO: Quando usa * é algo obrigatório.
+	  	   Quando usa P é a chave primária.
+	  	   Quando usa   é opcional.
+		   Quando usa F é chave estrangeira. (o oracle criou sozinho)
+		   Quando usa || é 1.
+		   Quando usa ○ é 0.
+
+• BARKER: Quando usa * é algo obrigatório. (mandatory)
+	  Quando usa ○ é opcional.
+	  Quando usa # é chave primária / identificador. (primary ID)
+	  Quando usa U é algo único.
+	  Quando usa - é 1.
+	  Quando usa -- é 0.
+	  (em Barker oculta detalhes, ela é mais simples. não tem F)
+
+
+CONCEITUAL
+1 => Quem são os dados
+2 => Com quem se relacionam

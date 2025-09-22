@@ -1,0 +1,29 @@
+relacionamento é a representação de uma ação ou fato que associa os itens de uma entidade com os itens de outra entidade.
+representado por uma linha continua ou não
+possui os dois sentidos, ida e volta.
+cada sentido possui um nome próprio
+
+relacionamento 1:1
+
+FUNCIONARIO........................LOGIN
+um funcionario necessita de login
+e pra cada login um funcionario
+- NAO TEM TABELA ASSOCIATIVA
+
+
+relacionamento 1:N
+
+FUNCIONARIO........................DEPENDENTE
+um funcionario pode possuir vários dependentes
+um funcionario pode ter nenhum, um ou mais dependentes
+- NAO TEM TABELA ASSOCIATIVA
+
+
+relacionamento M:N
+
+PEDIDO........................PRODUTO
+um pedido pode possuir varios produtos e um produto pode ser comercializado em varios pedidos
+- cada pedido deve possuir ao menos um produto e no maximo varios produtos
+- uma empresa possui varios produtos, mas nem todos os produtos sao comercializados a um pedido
+EXEMPLO: ESTOQUE E PRATELEIRAS. VOCE PEGA UM PRODUTO DA PRATELEIRA, NAO O ESTOQUE.
+- TEM TABELA ASSOCIATIVA (muitos para muitos tem tabela associativa, quase impossivel nao ter)
